@@ -1,6 +1,6 @@
 # Ansible role: NTP
 
-/* [![Build Status](https://travis-ci.org/kamikazestar/ansible-role-os-upgrade.svg?branch=master)](https://travis-ci.org/kamikazestar/ansible-role-os-upgrade) */
+[![Build Status](https://travis-ci.org/kamikazestar/ansible-role-ntp.svg?branch=master)](https://travis-ci.org/kamikazestar/ansible-role-ntp)
 
 This role will install, configure and run NTP
 
