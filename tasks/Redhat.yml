@@ -1,0 +1,26 @@
+---
+- name: Install tzdata and ntp
+  yum:
+    name: "{{ with_items }}"
+    state: present
+  with_items:
+    - tzdata
+    - ntp
+
+- name: Set timezone
+  timezone:
+    name: "{{ ntp_timezone }}"
+
+- name: Configure NTP
+  template:
+    src: ntp.conf.j2
+    dst: /etc/ntp.conf
+  notify: ntp_restart
+  when: ntp_manage_config
+
+- name: Start NTP deamon
+  service:
+    name: ntpd
+    state: started
+    enabled: true
+  when: ntp_enabled
