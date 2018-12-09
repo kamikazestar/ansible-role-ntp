@@ -26,4 +26,3 @@
     state: started
     enabled: true
   when: ntp_enabled
-
