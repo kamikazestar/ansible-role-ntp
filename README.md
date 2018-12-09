@@ -39,7 +39,7 @@ You can run this role as in example playbook below:
 
     - hosts: servers
       roles:
-         - role: kamikazstar.ansible-role-ntp
+         - role: kamikazstar.ansible_role_ntp
 
 # License
 
