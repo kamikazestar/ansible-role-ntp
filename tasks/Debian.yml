@@ -6,6 +6,10 @@
     update_cache: true
     name: "{{ packages }}"
     state: present
+  vars:
+    packeges:
+      - ntp
+      - tzdata
 
 - name: Set timezone
   timezone:
