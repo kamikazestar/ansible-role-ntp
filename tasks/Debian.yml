@@ -1,6 +1,4 @@
 ---
-- include: ../vars/varsDebian.yml
-
 - name: Install tzdata and ntp
   apt:
     update_cache: true
