@@ -1,9 +1,10 @@
 ---
+- include: varsDebian.yml
+
 - name: Install tzdata and ntp
   apt:
     update_cache: true
-    cache_valid_time: 3600
-    name: [u'ntp', u'tzdata']
+    name: "{{ packages }}"
     state: present
 
 - name: Set timezone
