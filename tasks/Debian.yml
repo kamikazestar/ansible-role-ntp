@@ -1,5 +1,5 @@
 ---
-- include: varsDebian.yml
+- include: vars/varsDebian.yml
 
 - name: Install tzdata and ntp
   apt:
