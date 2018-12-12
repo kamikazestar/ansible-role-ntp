@@ -3,7 +3,7 @@
   apt:
     update_cache: true
     cache_valid_time: 3600
-    name: [u'tzdata', u'ntp']
+    name: [u'ntp', u'tzdata']
     state: present
 
 - name: Set timezone
