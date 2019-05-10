@@ -5,7 +5,7 @@
     name: "{{ packages }}"
     state: present
   vars:
-    packeges:
+    packages:
       - ntp
       - tzdata
 
