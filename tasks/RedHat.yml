@@ -15,7 +15,7 @@
   template:
     src: ntp.conf.j2
     dest: /etc/ntp.conf
-  notify: ntp_restart
+  notify: ntp_restart_redhat
   when: ntp_manage_config
 
 - name: Start NTP deamon
