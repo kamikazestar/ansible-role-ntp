@@ -22,15 +22,15 @@ Role is using variables listed below:
 
 This role currently don't have any dependencies itself, but for automated tests it's using [Jeff Geerling](https://hub.docker.com/u/geerlingguy/) Docker containers:
 
+  - [docker-centos8-ansible](https://hub.docker.com/r/geerlingguy/docker-centos8-ansible/)
   - [docker-centos7-ansible](https://hub.docker.com/r/geerlingguy/docker-centos7-ansible/)
-  - [docker-centos6-ansible](https://hub.docker.com/r/geerlingguy/docker-centos6-ansible/)
-  - [docker-fedora29-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora29-ansible/)
-  - [docker-fedora27-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora27-ansible/)
+  - [docker-fedora31-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora31-ansible/)
+  - [docker-fedora30-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora30-ansible/)
   - [docker-amazonlinux2-ansible](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2-ansible/)
   - [docker-ubuntu1804-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1804-ansible/)
   - [docker-ubuntu1604-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1604-ansible/)
+  - [docker-debian10-ansible](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/)
   - [docker-debian9-ansible](https://hub.docker.com/r/geerlingguy/docker-debian9-ansible/)
-  - [docker-debian8-ansible](https://hub.docker.com/r/geerlingguy/docker-debian8-ansible/)
 
 
 # Example Playbook
